@@ -18,6 +18,27 @@ const WeatherApp = () => {
           <img src={search_icons} alt="Search" />
         </div>
       </div>
+      <div className="weather-image">
+        <img src={cloud_icons} alt="" />
+      </div>
+      <div className="weather-temp">24°C</div>
+      <div className="weather-location">London</div>
+      <div className="data-container">
+        <div className="element">
+          <img src={humidity_icons} alt="" className="icon" />
+          <div className="data">
+            <div className="humidity-percent">64%</div>
+            <div className="text">Humidity</div>
+          </div>
+        </div>
+        <div className="element">
+          <img src={wind_icons} alt="" className="icon" />
+          <div className="data">
+            <div className="wind-speed">18 km/hr</div>
+            <div className="text">Wind Speed</div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
