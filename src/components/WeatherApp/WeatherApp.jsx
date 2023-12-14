@@ -10,7 +10,7 @@ import wind_icons from '../assets/wind.png';
 import humidity_icons from '../assets/humidity.png';
 
 const WeatherApp = () => {
-  let api_key = process.env.api_key;
+  let api_key = (process.env.api_key);
 
   const [wicon, setWicon] = useState(cloud_icons);
 
