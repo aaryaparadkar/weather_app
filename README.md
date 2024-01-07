@@ -6,7 +6,7 @@ This repository contains a simple weather app built using React and scaffolded w
 
 ## Features
 
-- **Real-time Weather Data:** Fetches and displays accurate weather information using a weather API.
+- **Real-time Weather Data:** Fetches and displays accurate weather information using the weather API 'OpenWeatherMap'.
 
 - **Responsive Design:** The app is designed to provide a seamless experience across various devices and screen sizes.
 
